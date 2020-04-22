@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primaryColor: #af90a9;
+  --secondColor: #a6f4dc;
+  --thirdcolor: #944654;
+  --titleColor: #85ff9e;
+}
+
+html {
+  position: relative;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  text-align: center;
+}
+
+.login {
+  width: 40vw;
+  height: 60vh;
+  background: var(--primaryColor);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.information {
+  display: block;
+  padding: 0.5rem;
+  margin-left: 20px;
+  margin: auto;
+  margin-top: 1rem;
+  min-width: 250px;
+  margin-bottom: 1px solid --secondColor;
+}
+
+.login h1 {
+  font-family: cursive;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: var(--titleColor);
+}
+
+.loginbtn {
+  margin-top: 1.5rem;
+  min-width: 250px;
+  padding: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  color: var(--thirdcolor);
+  font-size: 1.2rem;
+}
+
+i {
+  font-size: 4rem;
+  color: var(--secondColor);
+}

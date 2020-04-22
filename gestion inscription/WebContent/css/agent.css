@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primaryColor: #af90a9;
+  --secondColor: #a6f4dc;
+  --thirdcolor: #944654;
+  --titleColor: #85ff9e;
+}
+
+html {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.content {
+  width: 40%;
+  height: 400px;
+  background: black;
+  float: left;
+  margin: 3rem;
+  padding: 4rem;
+  text-align: center;
+  font-family: cursive;
+  color: aliceblue;
+  font-size: 3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#inscription {
+  background: var(--secondColor);
+}
+
+#reinscription {
+  background: var(--thirdcolor);
+}
+
+.content i {
+  display: block;
+  font-size: 5rem;
+  margin: 2rem;
+}

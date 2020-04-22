@@ -1,0 +1,126 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primaryColor: #af90a9;
+  --secondColor: #a6f4dc;
+  --thirdcolor: #944654;
+  --titleColor: #85ff9e;
+}
+
+nav {
+  height: 4rem;
+  position: relative;
+  background: var(--thirdcolor);
+  display: block;
+}
+
+.information_agent {
+  text-align: center;
+  position: absolute;
+  font-family: fantasy;
+  font-family: 1rem;
+  color: antiquewhite;
+  top: 10%;
+  left: 10%;
+}
+
+.disconnect_agent {
+  text-align: center;
+  position: absolute;
+  top: 5%;
+  right: 0;
+}
+.disconnect_agent input {
+  padding: 10px;
+  font-family: cursive;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.main_reinscription {
+  position: relative;
+  margin: 5rem;
+  text-align: center;
+}
+
+.search {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.search_input {
+  width: 300px;
+  padding: 0.5rem;
+}
+
+.button_reinscription {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+
+
+
+.main_inscription {
+  width: 80vw;
+  position: relative;
+  text-align: center;
+}
+
+.inscription_title {
+  margin: 0.5rem;
+  font-family: cursive;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--primaryColor);
+}
+
+.fas {
+  font-size: 5rem;
+  margin: 1rem;
+  color: var(--primaryColor);
+}
+
+.formulaire_container {
+  position: absolute;
+  left: 50%;
+  margin-top: 3rem;
+  background: var(--secondColor);
+  padding: 4rem;
+  border-radius: 5px;
+  transform: translateX(-50%);
+}
+
+.formulaire_container input,
+select {
+  display: block;
+  padding: 0.5rem;
+  width: 400px;
+  margin: 0.5rem;
+}
+
+#sexe {
+  display: inline;
+  width: 100px;
+  color: var(--primaryColor);
+}
+
+.button_inscription {
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--primaryColor);
+}
+
+
+
